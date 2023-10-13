@@ -9,6 +9,7 @@ public class App {
 
     public static void main(String[] args) {
         String username = JOptionPane.showInputDialog("Enter your username:");
-        System.out.println(username);
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your passsword"));
+        JOptionPane.showMessageDialog(null, "Hi, " + username + ". Your age is " + age + ".\nThanks for participation");
     }
 }
